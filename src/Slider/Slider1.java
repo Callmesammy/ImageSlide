@@ -8,12 +8,12 @@ package Slider;
  *
  * @author user
  */
-public class Slide2 extends javax.swing.JPanel {
+public class Slider1 extends javax.swing.JPanel {
 
     /**
-     * Creates new form Slide2
+     * Creates new form Slider1
      */
-    public Slide2() {
+    public Slider1() {
         initComponents();
     }
 
@@ -26,17 +26,17 @@ public class Slide2 extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(106, 12, 99));
+        setBackground(new java.awt.Color(231, 3, 131));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 977, Short.MAX_VALUE)
+            .addGap(0, 708, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 215, Short.MAX_VALUE)
+            .addGap(0, 170, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
 

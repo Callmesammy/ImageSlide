@@ -1,16 +1,18 @@
 
 package imageslider;
 
-import Slider.Slide1;
-import Slider.Slide2;
+import Slider.Slider1;
+import Slider.Slider2;
 
+ 
 
 public class Main extends javax.swing.JFrame {
 
   
     public Main() {
         initComponents();
-        sliderPic1.getSliide(new Slide1(), new Slide2());
+      sliderModel1.setSlider(new Slider1(), new Slider2());
+     
     }
 
   
@@ -18,7 +20,7 @@ public class Main extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        sliderPic1 = new Slider.SliderPic();
+        sliderModel1 = new Slider.SliderModel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -26,13 +28,13 @@ public class Main extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(sliderPic1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(sliderModel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 941, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(sliderPic1, javax.swing.GroupLayout.DEFAULT_SIZE, 238, Short.MAX_VALUE)
-                .addGap(190, 190, 190))
+                .addComponent(sliderModel1, javax.swing.GroupLayout.PREFERRED_SIZE, 199, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 229, Short.MAX_VALUE))
         );
 
         setSize(new java.awt.Dimension(957, 436));
@@ -75,6 +77,6 @@ public class Main extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private Slider.SliderPic sliderPic1;
+    private Slider.SliderModel sliderModel1;
     // End of variables declaration//GEN-END:variables
 }
